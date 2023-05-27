@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Unit Converter</h1>
+    </div>
+</div>
+<div class="grid">
+    <div class="box">
+        <h1 class="converter-title">Length Converter</h1>
+        <input type="text" placeholder="Input" id="input">
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result">
+        <select id="inputType">
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="centimeter">Centimeter</option>
+            <option value="millimeter">Milimeter</option>
+            <option value="micrometer">Micrometer</option>
+            <option value="nanometer">Nanometer</option>
+            <option value="mile">Mile</option>
+            <option value="yard">Yard</option>
+            <option value="foot">Foot</option>
+        </select>
+        <select id="resultType">
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="centimeter">Centimeter</option>
+            <option value="millimeter">Milimeter</option>
+            <option value="micrometer">Micrometer</option>
+            <option value="nanometer">Nanometer</option>
+            <option value="mile">Mile</option>
+            <option value="yard">Yard</option>
+            <option value="foot">Foot</option>
+        </select>
+    </div> 
+    <div class="box">
+        <h1 class="converter-title">Time Converter</h1>
+        <input type="text" placeholder="Input" id="input_1">
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result_1">
+        <select id="inputType_1">
+            <option value="Second">Second</option>
+            <option value="Millisecond">Millisecond</option>
+            <option value="Microsecond">Microsecond</option>
+            <option value="Nanosecond">Nanosecond</option>
+            <option value="Picosecond">Picosecond</option>
+            <option value="Minute">Minute</option>
+            <option value="Hour">Hour</option>
+            <option value="Day">Day</option>
+            <option value="Week">Week</option>
+        </select>
+        <select id="resultType_1">
+            <option value="Second">Second</option>
+            <option value="Millisecond">Millisecond</option>
+            <option value="Microsecond">Microsecond</option>
+            <option value="Nanosecond">Nanosecond</option>
+            <option value="Picosecond">Picosecond</option>
+            <option value="Minute">Minute</option>
+            <option value="Hour">Hour</option>
+            <option value="Day">Day</option>
+            <option value="Week">Week</option>
+            
+        </select>
+    </div>
+    <div class="box">
+        <h1 class="converter-title">Temperature Converter</h1>
+        <input type="text" placeholder="Input" id="input_2">
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result_2">
+        <select id="inputType_2">
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+        <select id="resultType_2">
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+    </div>
+    <div class="box">
+        <h1 class="converter-title">Area Converter</h1>
+        <input type="text" placeholder="Input" id="input_3">
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result_3">
+        <select id="inputType_3">
+            <option value="Square Meter"> Square Meter</option>
+            <option value="Square Kilometer">Square Kilometer</option>
+            <option value="Square Centimeter">Square Centimeter</option>
+            <option value="Square Millimeter">Square Milimeter</option>
+            <option value="Square Micrometer">Square Micrometer</option>
+            <option value="Hectare">Hectare</option>
+            <option value="Square Yard">Square Yard</option>
+            <option value="Square Foot">Square Foot</option>
+            <option value="Square Inch">Square Inch</option>
+        </select>
+        <select id="resultType_3">
+            <option value="Square Meter"> Square Meter</option>
+            <option value="Square Kilometer">Square Kilometer</option>
+            <option value="Square Centimeter">Square Centimeter</option>
+            <option value="Square Millimeter">Square Milimeter</option>
+            <option value="Square Micrometer">Square Micrometer</option>
+            <option value="Hectare">Hectare</option>
+            <option value="Square Yard">Square Yard</option>
+            <option value="Square Foot">Square Foot</option>
+            <option value="Square Inch">Square Inch</option>
+        </select></div>
+    <div class="box">
+        <h1 class="converter-title">Volume Converter</h1>
+        <input type="text" placeholder="Input" id="input_4">
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result_4">
+        <select id="inputType_4">
+            <option value="Cubic Meter">Cubic Meter</option>
+            <option value="Cubic Kilometer">Cubic Kilometer</option>
+            <option value="Cubic Centimeter">Cubic Centimeter</option>
+            <option value="Cubic Milimeter">Cubic Milimeter</option>
+            <option value="Liter">Liter</option>
+            <option value="Milliliter">Milliliter</option>
+            <option value="US Gallon">US Gallon</option>
+            <option value="US Quart">US Quart</option>
+            <option value="US Pint">US Pint</option>
+        </select>
+        <select id="resultType_4">
+            <option value="Cubic Meter">Cubic Meter</option>
+            <option value="Cubic Kilometer">Cubic Kilometer</option>
+            <option value="Cubic Centimeter">Cubic Centimeter</option>
+            <option value="Cubic Milimeter">Cubic Milimeter</option>
+            <option value="Liter">Liter</option>
+            <option value="Milliliter">Milliliter</option>
+            <option value="US Gallon">US Gallon</option>
+            <option value="US Quart">US Quart</option>
+            <option value="US Pint">US Pint</option>
+        </select></div>
+    <div class="box">
+        <h1 class="converter-title">Weight Converter</h1>
+        <input type="text" placeholder="Input" id="input_5">
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result_5">
+        <select id="inputType_5">
+            <option value="Kilogram">Kilogram</option>
+            <option value="Gram">Gram</option>
+            <option value="Milligram">Milligram</option>
+            <option value="Metric Ton">Metric Ton</option>
+            <option value="Long Ton">Long Ton</option>
+            <option value="Short Ton">Short Ton</option>
+            <option value="Pound">Pound</option>
+            <option value="Ounce">Ounce</option>
+            <option value="Carrat">Carrat</option>
+        </select>
+        <select id="resultType_5">
+            <option value="Kilogram">Kilogram</option>
+            <option value="Gram">Gram</option>
+            <option value="Milligram">Milligram</option>
+            <option value="Metric Ton">Metric Ton</option>
+            <option value="Long Ton">Long Ton</option>
+            <option value="Short Ton">Short Ton</option>
+            <option value="Pound">Pound</option>
+            <option value="Ounce">Ounce</option>
+            <option value="Carrat">Carrat</option>
+        </select></div>
+</div>
+<!-- <div class="converter-body">
+    <h1 class="converter-title">Length Converter</h1>
+    <input type="text" placeholder="Input" id="input">
+    <span>=</span>
+    <input type="text" placeholder="Result" id="result">
+    <select id="inputType">
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="centimeter">Centimeter</option>
+        <option value="millimeter">milimeter</option>
+        <option value="micrometer">micrometer</option>
+        <option value="nanometer">nanometer</option>
+    </select>
+    <select id="resultType">
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="centimeter">Centimeter</option>
+        <option value="millimeter">milimeter</option>
+        <option value="micrometer">micrometer</option>
+        <option value="nanometer">nanometer</option>
+    </select> -->
+<!-- </div> -->
+
+<script src="main.js"></script> 
+<script src="time.js"></script>
+<script src="temperature.js"></script> 
+<script src="area.js"></script>
+<script src="volume.js"></script>
+<script src="weight.js"></script>
+</body>
+</html>
